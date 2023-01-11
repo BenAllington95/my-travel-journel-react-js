@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography */
+
+h2, p, h1 {
+    margin: 0;
+}
+
+/* Nav */
+
+.nav {
+    background: #F55A5A;
+    padding: 1.3em 0;
+    text-align: center;
+}
+
+.nav-heading {
+    color: #FFFFFF;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+}
+
+/* Cards */
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    max-width: 550px;
+    border-bottom: 1px solid #F5F5F5;
+    margin: 0 auto;
+}
+
+.card-data {
+    margin-left: 1em;
+}
+
+.card-img {
+    height: 168px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-location-container {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    color: #F55A5A;
+    margin-right: 0.25em;
+}
+
+.card-location {
+    text-transform: uppercase;
+    letter-spacing: 0.17eml;
+    margin-right: 0.6em;
+}
+
+.card-google-url {
+    text-transform: none;
+    letter-spacing: 0;
+    color: #918E9B;
+}
+
+.card-title {
+    margin-top: 0.09em;
+    margin-bottom: 0.5em;
+    font-size: 1.56eml
+}
+
+.card-dates {
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+
+.card-location,
+.card-google-url,
+.card-dates {
+    font-size: 0.75em;
+}
+
+.card-desc {
+    font-size: 10.24px;
+    line-height: 1.4;
+    color: #2B283A;
+}
